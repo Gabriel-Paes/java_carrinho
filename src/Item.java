@@ -11,10 +11,10 @@ public class Item {
         valorTotItem = qntComprada * produtoComprado.getPreco();
     }
 
-    public Item(Produto produtoComprado, int qntComprada, double valorTotItem) {
+    public Item(Produto produtoComprado, int qntComprada) {
         this.produtoComprado = produtoComprado;
         this.qntComprada = qntComprada;
-        this.valorTotItem = valorTotItem;
+        this.valorTotItem = qntComprada * produtoComprado.getPreco();
     }
 
     public Produto getProdutoComprado() {

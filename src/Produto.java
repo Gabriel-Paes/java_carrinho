@@ -38,4 +38,10 @@ public class Produto {
     public void setPreco(double preco) {
         this.preco = preco;
     } 
+
+    public void exibirProduto() {
+        System.out.println("\nNome: "+ nome);
+        System.out.println("Código: "+ codigo);
+        System.out.println("Preço: "+ preco +"\n");
+    }
 }
