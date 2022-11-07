@@ -1,7 +1,9 @@
-## Getting Started
+# Carrinho de Compras
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Muito top fazer um código aplicando **OOP** e ver todas as classes se interagindo.
 
+- Desenvolvido em Java ☕
+  
 ## Folder Structure
 
 The workspace contains two folders by default, where:
